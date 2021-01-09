@@ -31,8 +31,7 @@ form {
 }
 .small-text {
   color: gray;
-  font-size: 10xp;
-  padding: 3em;
+  padding: 1.25em;
 }
 .small-text a {
   text-decoration: none;
@@ -42,7 +41,6 @@ form {
 .form-control {
   margin-bottom: 0.75em;
   padding-bottom: 1em;
-  /* position: relative; */
 }
 
 .wrapper {
@@ -54,11 +52,26 @@ form {
   border: 2px solid #f0f0f0;
   border-radius: 5px;
   display: block;
+  position: relative;
   font-family: inherit;
   font-size: 14px;
   padding-top: 1em;
   padding-bottom: 1em;
   width: 100%;
+}
+.form-control.success input {
+  border: 2px solid rgb(75, 126, 75);
+}
+
+.form-control.error input {
+  border: 2px solid rgb(196, 18, 18);
+}
+
+.form-control small {
+  position: absolute;
+  margin: 0.5em;
+  color: black;
+  visibility: hidden;
 }
 .btn {
   border-radius: 5px;
@@ -76,6 +89,15 @@ form {
   transition: background 0.2s ease;
 }
 .trial {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600px;
+  text-align: center;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   background-color: hsl(249, 40%, 37%);
   border: 2px solid hsl(249, 40%, 37%);
 
@@ -117,6 +139,6 @@ form {
   }
   .small-text {
     font-size: 8px;
-    padding: 2em;
+    padding: 1em;
   }
 }
