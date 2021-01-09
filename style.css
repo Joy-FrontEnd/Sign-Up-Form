@@ -11,16 +11,19 @@ body {
 }
 h1 {
   margin: 0;
+  line-height: 1;
   font-weight: 700;
 }
 
 p {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 header {
-  width: 70vh;
-  margin: 15em 8em;
+  width: 60vh;
+  margin: 15em 10em;
 }
 
 form {
@@ -43,7 +46,7 @@ form {
 }
 
 .wrapper {
-  width: 40%;
+  width: 38%;
   margin-top: 8em;
 }
 
@@ -87,9 +90,7 @@ form {
 }
 .container {
   margin-top: 0.75em;
-  padding: 0.5em;
-  /* width: 600px;
-  max-width: 100%; */
+  padding: 1em;
   border-radius: 5px;
   background-color: #fff;
 }
